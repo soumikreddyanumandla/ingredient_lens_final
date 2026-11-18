@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+.venv/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+*.db
+*.sqlite
+*.sqlite3
+.env
+*.joblib
+.DS_Store
+**/.DS_Store

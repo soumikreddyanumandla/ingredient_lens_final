@@ -1,0 +1,50 @@
+{
+  "baseline": {
+    "dataset_size": 50,
+    "num_classes": 15,
+    "accuracy": 0.0769,
+    "macro_precision": 0.0064,
+    "macro_recall": 0.0833,
+    "macro_f1": 0.0119,
+    "weighted_precision": 0.0059,
+    "weighted_recall": 0.0769,
+    "weighted_f1": 0.011
+  },
+  "improved": {
+    "dataset_size": 427,
+    "num_classes": 19,
+    "5fold_cv_accuracy": 0.3326,
+    "5fold_cv_macro_precision": 0.5905,
+    "5fold_cv_macro_recall": 0.2797,
+    "5fold_cv_macro_f1": 0.3054,
+    "5fold_cv_weighted_precision": 0.5647,
+    "5fold_cv_weighted_recall": 0.3326,
+    "5fold_cv_weighted_f1": 0.3152,
+    "holdout_test_accuracy": 0.3023,
+    "holdout_test_macro_f1": 0.2516,
+    "holdout_test_weighted_f1": 0.2698
+  },
+  "macro_f1_gain": 0.2935,
+  "accuracy_gain": 0.2557,
+  "classes": [
+    "active",
+    "antioxidant",
+    "chelating_agent",
+    "emollient",
+    "emulsifier",
+    "excipient_binder",
+    "flavoring",
+    "fragrance",
+    "humectant",
+    "nutrient",
+    "pH_regulator",
+    "pharmaceutical_active",
+    "preservative",
+    "solvent",
+    "soothing_agent",
+    "sunscreen_filter",
+    "surfactant",
+    "sweetener",
+    "thickener"
+  ]
+}

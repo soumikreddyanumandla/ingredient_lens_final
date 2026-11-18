@@ -1,0 +1,49 @@
+{
+  "total_rows": 427,
+  "unique_ingredients": 427,
+  "number_of_classes": 19,
+  "duplicate_count": 0,
+  "missing_value_count": 0,
+  "conflicting_label_count": 0,
+  "class_distribution": {
+    "emollient": 47,
+    "humectant": 39,
+    "active": 28,
+    "pharmaceutical_active": 26,
+    "thickener": 22,
+    "preservative": 22,
+    "antioxidant": 22,
+    "surfactant": 21,
+    "emulsifier": 21,
+    "nutrient": 21,
+    "sweetener": 21,
+    "sunscreen_filter": 20,
+    "excipient_binder": 20,
+    "fragrance": 19,
+    "solvent": 19,
+    "flavoring": 18,
+    "soothing_agent": 17,
+    "pH_regulator": 16,
+    "chelating_agent": 8
+  },
+  "source_distribution": {
+    "Cosmetic Reference": 236,
+    "PubChem": 42,
+    "Food Reference": 39,
+    "openFDA": 24,
+    "Open Beauty Facts": 20,
+    "USP Excipient Reference": 19,
+    "Open Food Facts": 15,
+    "PubChem / Food Reference": 14,
+    "FDA / Cosmetic Reference": 8,
+    "Food / Cosmetic Reference": 4,
+    "PubChem / Cosmetic Reference": 3,
+    "Open Beauty Facts / PubChem": 1,
+    "DailyMed / FDA": 1,
+    "USP / FDA Excipient Reference": 1
+  },
+  "rare_classes": {
+    "chelating_agent": 8
+  },
+  "final_dataset_quality_summary": "High-quality dataset of 427 unique real-world ingredients categorized across 19 controlled functional taxonomy classes, with full provenance tracking and zero duplicate/conflicting records."
+}

@@ -1,0 +1,428 @@
+ingredient,function,source
+water,solvent,Open Beauty Facts / PubChem
+propanediol,solvent,Cosmetic Reference
+propylene glycol,solvent,Cosmetic Reference
+butylene glycol,solvent,Cosmetic Reference
+pentylene glycol,solvent,Cosmetic Reference
+hexylene glycol,solvent,Cosmetic Reference
+dipropylene glycol,solvent,Cosmetic Reference
+alcohol denat.,solvent,Cosmetic Reference
+ethanol,solvent,PubChem
+isopropyl alcohol,solvent,PubChem
+glycerin,humectant,Open Beauty Facts
+methylpropanediol,solvent,Cosmetic Reference
+peg-8,solvent,Cosmetic Reference
+peg-400,solvent,Cosmetic Reference
+ethyl alcohol,solvent,PubChem
+tripropylene glycol,solvent,Cosmetic Reference
+isododecane,solvent,Cosmetic Reference
+isohexadecane,solvent,Cosmetic Reference
+cyclomethicone,solvent,Cosmetic Reference
+cyclopentasiloxane,solvent,Cosmetic Reference
+sodium hyaluronate,humectant,Cosmetic Reference
+hyaluronic acid,humectant,Cosmetic Reference
+hydrolyzed hyaluronic acid,humectant,Cosmetic Reference
+sodium acetylated hyaluronate,humectant,Cosmetic Reference
+sorbitol,humectant,PubChem
+panthenol,humectant,Cosmetic Reference
+urea,humectant,Cosmetic Reference
+trehalose,humectant,PubChem
+xylitol,humectant,PubChem
+betaine,humectant,Cosmetic Reference
+sodium pca,humectant,Cosmetic Reference
+pca,humectant,Cosmetic Reference
+polyquaternium-51,humectant,Cosmetic Reference
+alpha-glucan oligosaccharide,humectant,Cosmetic Reference
+hydroxyethyl urea,humectant,Cosmetic Reference
+diglycerin,humectant,Cosmetic Reference
+polyglycerin-3,humectant,Cosmetic Reference
+maltitol,humectant,PubChem
+erythritol,humectant,PubChem
+mannitol,humectant,PubChem
+glucose,humectant,PubChem
+fructose,humectant,PubChem
+polypropyleneglycol,humectant,Cosmetic Reference
+acetamide mea,humectant,Cosmetic Reference
+lactamide mea,humectant,Cosmetic Reference
+sodium lactate,humectant,Cosmetic Reference
+potassium pca,humectant,Cosmetic Reference
+glutamic acid,humectant,Cosmetic Reference
+alanine,humectant,Cosmetic Reference
+arginine,humectant,Cosmetic Reference
+glycine,humectant,Cosmetic Reference
+serine,humectant,Cosmetic Reference
+valine,humectant,Cosmetic Reference
+proline,humectant,Cosmetic Reference
+threonine,humectant,Cosmetic Reference
+isoleucine,humectant,Cosmetic Reference
+histidine,humectant,Cosmetic Reference
+phenylalanine,humectant,Cosmetic Reference
+squalane,emollient,Cosmetic Reference
+squalene,emollient,Cosmetic Reference
+dimethicone,emollient,Cosmetic Reference
+caprylic/capric triglyceride,emollient,Cosmetic Reference
+isopropyl myristate,emollient,Cosmetic Reference
+isopropyl palmitate,emollient,Cosmetic Reference
+shea butter,emollient,Open Beauty Facts
+butyrospermum parkii butter,emollient,Cosmetic Reference
+jojoba oil,emollient,Open Beauty Facts
+simmondsia chinensis seed oil,emollient,Cosmetic Reference
+argan oil,emollient,Open Beauty Facts
+argania spinosa kernel oil,emollient,Cosmetic Reference
+cetyl alcohol,emollient,Cosmetic Reference
+cetearyl alcohol,emollient,Cosmetic Reference
+stearyl alcohol,emollient,Cosmetic Reference
+myristyl alcohol,emollient,Cosmetic Reference
+behenyl alcohol,emollient,Cosmetic Reference
+sunflower seed oil,emollient,Open Beauty Facts
+helianthus annuus seed oil,emollient,Cosmetic Reference
+sweet almond oil,emollient,Open Beauty Facts
+prunus amygdalus dulcis oil,emollient,Cosmetic Reference
+mineral oil,emollient,Cosmetic Reference
+paraffinum liquidum,emollient,Cosmetic Reference
+petrolatum,emollient,Cosmetic Reference
+c12-15 alkyl benzoate,emollient,Cosmetic Reference
+cetyl ethylhexanoate,emollient,Cosmetic Reference
+ethylhexyl palmitate,emollient,Cosmetic Reference
+octyldodecanol,emollient,Cosmetic Reference
+rosehip seed oil,emollient,Open Beauty Facts
+rosa canina fruit oil,emollient,Cosmetic Reference
+coconut oil,emollient,Open Beauty Facts
+cocos nucifera oil,emollient,Cosmetic Reference
+avocado oil,emollient,Open Beauty Facts
+persea gratissima oil,emollient,Cosmetic Reference
+olive oil,emollient,Open Beauty Facts
+olea europaea fruit oil,emollient,Cosmetic Reference
+macadamia oil,emollient,Open Beauty Facts
+macadamia integrifolia seed oil,emollient,Cosmetic Reference
+grape seed oil,emollient,Open Beauty Facts
+vitis vinifera seed oil,emollient,Cosmetic Reference
+castor oil,emollient,Open Beauty Facts
+ricinus communis seed oil,emollient,Cosmetic Reference
+dimethiconol,emollient,Cosmetic Reference
+phenyl trimethicone,emollient,Cosmetic Reference
+amodimethicone,emollient,Cosmetic Reference
+polyisobutene,emollient,Cosmetic Reference
+hydrogenated polyisobutene,emollient,Cosmetic Reference
+sodium lauryl sulfate,surfactant,Cosmetic Reference
+sodium laureth sulfate,surfactant,Cosmetic Reference
+cocamidopropyl betaine,surfactant,Cosmetic Reference
+lauryl glucoside,surfactant,Cosmetic Reference
+decyl glucoside,surfactant,Cosmetic Reference
+coco-glucoside,surfactant,Cosmetic Reference
+cocamide mea,surfactant,Cosmetic Reference
+cocamide dea,surfactant,Cosmetic Reference
+sodium cocoyl isethionate,surfactant,Cosmetic Reference
+sodium methyl cocoyl taurate,surfactant,Cosmetic Reference
+disodium laureth sulfosuccinate,surfactant,Cosmetic Reference
+sodium lauroyl sarcosinate,surfactant,Cosmetic Reference
+sodium c14-16 olefin sulfonate,surfactant,Cosmetic Reference
+ammonium lauryl sulfate,surfactant,Cosmetic Reference
+ammonium laureth sulfate,surfactant,Cosmetic Reference
+sodium coco-sulfate,surfactant,Cosmetic Reference
+potassium cocoyl glycinate,surfactant,Cosmetic Reference
+sodium cocoyl glutamate,surfactant,Cosmetic Reference
+disodium cocoyl glutamate,surfactant,Cosmetic Reference
+caprylyl/capryl glucoside,surfactant,Cosmetic Reference
+sodium lauroyl methyl isethionate,surfactant,Cosmetic Reference
+polysorbate 20,emulsifier,Cosmetic Reference
+polysorbate 60,emulsifier,Cosmetic Reference
+polysorbate 80,emulsifier,Cosmetic Reference
+ceteareth-20,emulsifier,Cosmetic Reference
+ceteareth-12,emulsifier,Cosmetic Reference
+glyceryl stearate,emulsifier,Cosmetic Reference
+peg-100 stearate,emulsifier,Cosmetic Reference
+lecithin,emulsifier,PubChem / Food Reference
+hydrogenated lecithin,emulsifier,Cosmetic Reference
+cetearyl olivate,emulsifier,Cosmetic Reference
+sorbitan olivate,emulsifier,Cosmetic Reference
+sorbitan stearate,emulsifier,Cosmetic Reference
+sorbitan oleate,emulsifier,Cosmetic Reference
+sorbitan palmitate,emulsifier,Cosmetic Reference
+steareth-2,emulsifier,Cosmetic Reference
+steareth-21,emulsifier,Cosmetic Reference
+polyglyceryl-3 methylglucose distearate,emulsifier,Cosmetic Reference
+polyglyceryl-10 laurate,emulsifier,Cosmetic Reference
+polyglyceryl-4 caprate,emulsifier,Cosmetic Reference
+sodium stearoyl lactylate,emulsifier,Food Reference
+glyceryl oleate,emulsifier,Cosmetic Reference
+phenoxyethanol,preservative,Cosmetic Reference
+sodium benzoate,preservative,PubChem / Food Reference
+potassium sorbate,preservative,PubChem / Food Reference
+benzyl alcohol,preservative,Cosmetic Reference
+ethylhexylglycerin,preservative,Cosmetic Reference
+chlorphenesin,preservative,Cosmetic Reference
+methylparaben,preservative,Cosmetic Reference
+propylparaben,preservative,Cosmetic Reference
+butylparaben,preservative,Cosmetic Reference
+ethylparaben,preservative,Cosmetic Reference
+dehydroacetic acid,preservative,Cosmetic Reference
+sorbic acid,preservative,PubChem
+benzoic acid,preservative,PubChem
+salicylic acid preservative,preservative,Cosmetic Reference
+dmdm hydantoin,preservative,Cosmetic Reference
+imidazolidinyl urea,preservative,Cosmetic Reference
+diazolidinyl urea,preservative,Cosmetic Reference
+methylisothiazolinone,preservative,Cosmetic Reference
+methylchloroisothiazolinone,preservative,Cosmetic Reference
+benzalkonium chloride,preservative,PubChem
+cetrimonium bromide,preservative,Cosmetic Reference
+iodopropynyl butylcarbamate,preservative,Cosmetic Reference
+tocopherol,antioxidant,PubChem / Cosmetic Reference
+tocopheryl acetate,antioxidant,Cosmetic Reference
+ascorbic acid,antioxidant,PubChem / Food Reference
+sodium ascorbyl phosphate,antioxidant,Cosmetic Reference
+magnesium ascorbyl phosphate,antioxidant,Cosmetic Reference
+ascorbyl glucoside,antioxidant,Cosmetic Reference
+tetrahexyldecyl ascorbate,antioxidant,Cosmetic Reference
+ferulic acid,antioxidant,Cosmetic Reference
+bht,antioxidant,PubChem / Food Reference
+butylated hydroxytoluene,antioxidant,PubChem
+bha,antioxidant,PubChem
+butylated hydroxyanisole,antioxidant,PubChem
+resveratrol,antioxidant,Cosmetic Reference
+ubiquinone,antioxidant,Cosmetic Reference
+coenzyme q10,antioxidant,Cosmetic Reference
+astaxanthin,antioxidant,Cosmetic Reference
+epigallocatechin gallate,antioxidant,Cosmetic Reference
+green tea extract,antioxidant,Open Beauty Facts
+camellia sinensis leaf extract,antioxidant,Cosmetic Reference
+rosmarinus officinalis leaf extract,antioxidant,Cosmetic Reference
+rosemary extract,antioxidant,Open Food Facts
+glutathione,antioxidant,PubChem
+niacinamide,active,Cosmetic Reference
+salicylic acid,active,Cosmetic Reference
+glycolic acid,active,Cosmetic Reference
+lactic acid,active,Cosmetic Reference
+mandelic acid,active,Cosmetic Reference
+azelaic acid,active,Cosmetic Reference
+retinol,active,Cosmetic Reference
+retinyl palmitate,active,Cosmetic Reference
+retinal,active,Cosmetic Reference
+granactive retinoid,active,Cosmetic Reference
+hydroxypinacolone retinoate,active,Cosmetic Reference
+kojic acid,active,Cosmetic Reference
+alpha-arbutin,active,Cosmetic Reference
+arbutin,active,Cosmetic Reference
+caffeine,active,PubChem / Cosmetic Reference
+ceramide np,active,Cosmetic Reference
+ceramide ap,active,Cosmetic Reference
+ceramide eop,active,Cosmetic Reference
+ceramide ns,active,Cosmetic Reference
+phytosphingosine,active,Cosmetic Reference
+cholesterol,active,Cosmetic Reference
+tranexamic acid,active,Cosmetic Reference
+bakuchiol,active,Cosmetic Reference
+benzoyl peroxide,active,FDA / Cosmetic Reference
+copper tripeptide-1,active,Cosmetic Reference
+palmitoyl tripeptide-1,active,Cosmetic Reference
+palmitoyl tetrapeptide-7,active,Cosmetic Reference
+acetyl hexapeptide-8,active,Cosmetic Reference
+parfum,fragrance,Open Beauty Facts
+fragrance,fragrance,Open Beauty Facts
+linalool,fragrance,Cosmetic Reference
+limonene,fragrance,Cosmetic Reference
+citronellol,fragrance,Cosmetic Reference
+geraniol,fragrance,Cosmetic Reference
+eugenol,fragrance,Cosmetic Reference
+citral,fragrance,Cosmetic Reference
+benzyl salicylate,fragrance,Cosmetic Reference
+hexyl cinnamal,fragrance,Cosmetic Reference
+alpha-isomethyl ionone,fragrance,Cosmetic Reference
+coumarin,fragrance,Cosmetic Reference
+hydroxycitronellal,fragrance,Cosmetic Reference
+benzyl benzoate,fragrance,Cosmetic Reference
+farnesol,fragrance,Cosmetic Reference
+isoeugenol,fragrance,Cosmetic Reference
+cinnamal,fragrance,Cosmetic Reference
+amyl cinnamal,fragrance,Cosmetic Reference
+essential oil blend,fragrance,Open Beauty Facts
+carbomer,thickener,Cosmetic Reference
+xanthan gum,thickener,Food / Cosmetic Reference
+hydroxyethylcellulose,thickener,Cosmetic Reference
+guar gum,thickener,Food Reference
+gellan gum,thickener,Food Reference
+pectin,thickener,Food Reference
+sodium polyacrylate,thickener,Cosmetic Reference
+silica,thickener,Cosmetic Reference
+bentonite,thickener,Cosmetic Reference
+magnesium aluminum silicate,thickener,Cosmetic Reference
+carrageenan,thickener,Food Reference
+agar,thickener,Food Reference
+sodium carboxymethylcellulose,thickener,Food / Cosmetic Reference
+cellulose gum,thickener,Food Reference
+ammonium acryloyldimethyltaurate/vp copolymer,thickener,Cosmetic Reference
+acrylates/c10-30 alkyl acrylate crosspolymer,thickener,Cosmetic Reference
+hydroxypropyl methylcellulose,thickener,Food / Cosmetic Reference
+locust bean gum,thickener,Food Reference
+arabic gum,thickener,Food Reference
+acacia senegal gum,thickener,Food Reference
+corn starch,thickener,Food Reference
+tapioca starch,thickener,Food Reference
+citric acid,pH_regulator,PubChem / Food Reference
+sodium hydroxide,pH_regulator,PubChem / Cosmetic Reference
+potassium hydroxide,pH_regulator,PubChem
+triethanolamine,pH_regulator,Cosmetic Reference
+aminomethyl propanol,pH_regulator,Cosmetic Reference
+sodium citrate,pH_regulator,PubChem / Food Reference
+potassium citrate,pH_regulator,PubChem
+malic acid,pH_regulator,Food Reference
+tartaric acid,pH_regulator,Food Reference
+fumaric acid,pH_regulator,Food Reference
+succinic acid,pH_regulator,Food Reference
+phosphoric acid,pH_regulator,PubChem
+disodium phosphate,pH_regulator,Food Reference
+monopotassium phosphate,pH_regulator,Food Reference
+dipotassium phosphate,pH_regulator,Food Reference
+sodium phosphate,pH_regulator,Food Reference
+disodium edta,chelating_agent,Cosmetic Reference
+tetrasodium edta,chelating_agent,Cosmetic Reference
+phytic acid,chelating_agent,Cosmetic Reference
+sodium phytate,chelating_agent,Cosmetic Reference
+trisodium ethylenediamine disuccinate,chelating_agent,Cosmetic Reference
+gluconolactone,chelating_agent,Cosmetic Reference
+tetrasodium glutamate diacetate,chelating_agent,Cosmetic Reference
+citric acid chelator,chelating_agent,Food Reference
+allantoin,soothing_agent,Cosmetic Reference
+bisabolol,soothing_agent,Cosmetic Reference
+centella asiatica extract,soothing_agent,Cosmetic Reference
+madecassoside,soothing_agent,Cosmetic Reference
+asiaticoside,soothing_agent,Cosmetic Reference
+madecassic acid,soothing_agent,Cosmetic Reference
+asiatic acid,soothing_agent,Cosmetic Reference
+aloe barbadensis leaf juice,soothing_agent,Open Beauty Facts
+dipotassium glycyrrhizate,soothing_agent,Cosmetic Reference
+glycyrrhiza glabra root extract,soothing_agent,Cosmetic Reference
+licorice root extract,soothing_agent,Open Beauty Facts
+colloidal oatmeal,soothing_agent,Cosmetic Reference
+avena sativa kernel extract,soothing_agent,Cosmetic Reference
+chamomilla recutita flower extract,soothing_agent,Cosmetic Reference
+chamomile extract,soothing_agent,Open Beauty Facts
+calendula officinalis flower extract,soothing_agent,Cosmetic Reference
+beta-glucan,soothing_agent,Cosmetic Reference
+zinc oxide,sunscreen_filter,FDA / Cosmetic Reference
+titanium dioxide,sunscreen_filter,FDA / Cosmetic Reference
+avobenzone,sunscreen_filter,FDA / Cosmetic Reference
+butyl methoxydibenzoylmethane,sunscreen_filter,Cosmetic Reference
+octocrylene,sunscreen_filter,FDA / Cosmetic Reference
+ethylhexyl methoxycinnamate,sunscreen_filter,Cosmetic Reference
+octinoxate,sunscreen_filter,FDA / Cosmetic Reference
+homosalate,sunscreen_filter,FDA / Cosmetic Reference
+ethylhexyl salicylate,sunscreen_filter,Cosmetic Reference
+octisalate,sunscreen_filter,FDA / Cosmetic Reference
+bis-ethylhexyloxyphenol methoxyphenyl triazine,sunscreen_filter,Cosmetic Reference
+tinosorb s,sunscreen_filter,Cosmetic Reference
+drometrizole trisiloxane,sunscreen_filter,Cosmetic Reference
+mexoryl xl,sunscreen_filter,Cosmetic Reference
+terephthalylidene dicamphor sulfonic acid,sunscreen_filter,Cosmetic Reference
+mexoryl sx,sunscreen_filter,Cosmetic Reference
+diethylamino hydroxybenzoyl hexyl benzoate,sunscreen_filter,Cosmetic Reference
+uvinul a plus,sunscreen_filter,Cosmetic Reference
+ethylhexyl triazone,sunscreen_filter,Cosmetic Reference
+uvinul t 150,sunscreen_filter,Cosmetic Reference
+sucrose,sweetener,PubChem / Food Reference
+sugar,sweetener,Open Food Facts
+fructose sweetener,sweetener,Food Reference
+glucose syrup,sweetener,Open Food Facts
+corn syrup,sweetener,Open Food Facts
+high fructose corn syrup,sweetener,Food Reference
+stevia,sweetener,Food Reference
+steviol glycosides,sweetener,Food Reference
+sucralose,sweetener,PubChem / Food Reference
+aspartame,sweetener,PubChem / Food Reference
+acesulfame potassium,sweetener,PubChem / Food Reference
+acesulfame k,sweetener,Food Reference
+saccharin,sweetener,PubChem
+sodium saccharin,sweetener,PubChem
+monk fruit extract,sweetener,Food Reference
+luo han guo,sweetener,Food Reference
+honey,sweetener,Open Food Facts
+maple syrup,sweetener,Open Food Facts
+agave nectar,sweetener,Open Food Facts
+isomalt,sweetener,Food Reference
+lactitol,sweetener,Food Reference
+vanillin,flavoring,PubChem / Food Reference
+ethyl vanillin,flavoring,PubChem
+menthol,flavoring,PubChem
+cinnamaldehyde,flavoring,PubChem
+anethole,flavoring,PubChem
+natural flavor,flavoring,Open Food Facts
+natural flavour,flavoring,Open Food Facts
+artificial flavor,flavoring,Open Food Facts
+cocoa powder,flavoring,Open Food Facts
+cacao,flavoring,Open Food Facts
+cinnamon,flavoring,Open Food Facts
+peppermint oil,flavoring,Food Reference
+spearmint oil,flavoring,Food Reference
+citrus limon peel oil,flavoring,Food / Cosmetic Reference
+lemon extract,flavoring,Open Food Facts
+vanilla extract,flavoring,Open Food Facts
+msg,flavoring,Food Reference
+monosodium glutamate,flavoring,PubChem / Food Reference
+folic acid,nutrient,PubChem / Food Reference
+cyanocobalamin,nutrient,PubChem
+vitamin b12,nutrient,Food Reference
+thiamine,nutrient,PubChem
+vitamin b1,nutrient,Food Reference
+riboflavin,nutrient,PubChem
+vitamin b2,nutrient,Food Reference
+pyridoxine hydrochloride,nutrient,PubChem
+vitamin b6,nutrient,Food Reference
+ergocalciferol,nutrient,PubChem
+vitamin d2,nutrient,Food Reference
+cholecalciferol,nutrient,PubChem
+vitamin d3,nutrient,Food Reference
+zinc sulfate,nutrient,PubChem
+ferrous sulfate,nutrient,PubChem
+calcium carbonate,nutrient,PubChem
+magnesium oxide,nutrient,PubChem
+biotin,nutrient,PubChem
+pantothenic acid,nutrient,PubChem
+niacin,nutrient,PubChem
+nicotinic acid,nutrient,PubChem
+paracetamol,pharmaceutical_active,DailyMed / FDA
+ibuprofen,pharmaceutical_active,openFDA
+aspirin,pharmaceutical_active,openFDA
+acetylsalicylic acid,pharmaceutical_active,PubChem
+diphenhydramine,pharmaceutical_active,openFDA
+diphenhydramine hydrochloride,pharmaceutical_active,openFDA
+cetirizine,pharmaceutical_active,openFDA
+cetirizine hydrochloride,pharmaceutical_active,openFDA
+loratadine,pharmaceutical_active,openFDA
+fexofenadine,pharmaceutical_active,openFDA
+loperamide,pharmaceutical_active,openFDA
+loperamide hydrochloride,pharmaceutical_active,openFDA
+omeprazole,pharmaceutical_active,openFDA
+esomeprazole,pharmaceutical_active,openFDA
+famotidine,pharmaceutical_active,openFDA
+ranitidine,pharmaceutical_active,openFDA
+hydrocortisone,pharmaceutical_active,openFDA
+clotrimazole,pharmaceutical_active,openFDA
+miconazole,pharmaceutical_active,openFDA
+terbinafine,pharmaceutical_active,openFDA
+ketoconazole,pharmaceutical_active,openFDA
+dextromethorphan,pharmaceutical_active,openFDA
+dextromethorphan hydrobromide,pharmaceutical_active,openFDA
+guaifenesin,pharmaceutical_active,openFDA
+pseudoephedrine,pharmaceutical_active,openFDA
+phenylephrine,pharmaceutical_active,openFDA
+microcrystalline cellulose,excipient_binder,USP / FDA Excipient Reference
+dicalcium phosphate,excipient_binder,USP Excipient Reference
+lactose monohydrate,excipient_binder,USP Excipient Reference
+lactose,excipient_binder,USP Excipient Reference
+magnesium stearate,excipient_binder,USP Excipient Reference
+croscarmellose sodium,excipient_binder,USP Excipient Reference
+sodium starch glycolate,excipient_binder,USP Excipient Reference
+povidone,excipient_binder,USP Excipient Reference
+polyvinylpyrrolidone,excipient_binder,USP Excipient Reference
+copovidone,excipient_binder,USP Excipient Reference
+hypromellose,excipient_binder,USP Excipient Reference
+hydroxypropyl methylcellulose excipient,excipient_binder,USP Excipient Reference
+talc,excipient_binder,USP Excipient Reference
+titanium dioxide excipient,excipient_binder,USP Excipient Reference
+stearic acid excipient,excipient_binder,USP Excipient Reference
+colloidal silicon dioxide,excipient_binder,USP Excipient Reference
+pregelatinized starch,excipient_binder,USP Excipient Reference
+calcium silicate,excipient_binder,USP Excipient Reference
+ethylcellulose,excipient_binder,USP Excipient Reference
+methacrylic acid copolymer,excipient_binder,USP Excipient Reference

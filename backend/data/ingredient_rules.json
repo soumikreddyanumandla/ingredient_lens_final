@@ -1,0 +1,293 @@
+{
+  "all": {
+    "water": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Used primarily as a solvent/carrier in many formulations.",
+      "function": "solvent",
+      "source": {
+        "name": "Ingredient Lens local reference",
+        "url": "https://world.openbeautyfacts.org/"
+      }
+    },
+    "aqua": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Water is commonly used as a solvent/carrier.",
+      "function": "solvent"
+    },
+    "glycerin": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Common humectant used to help retain moisture.",
+      "function": "humectant"
+    },
+    "niacinamide": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "A commonly used cosmetic ingredient with multiple documented formulation functions.",
+      "function": "active"
+    },
+    "cetearyl alcohol": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "A fatty alcohol commonly used as an emollient and consistency aid.",
+      "function": "emollient"
+    },
+    "cetyl alcohol": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "A fatty alcohol commonly used for texture and emolliency.",
+      "function": "emollient"
+    },
+    "dimethicone": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "A silicone used for conditioning and slip in many personal-care formulations.",
+      "function": "emollient"
+    },
+    "carbomer": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "A polymer commonly used as a thickener or gelling agent.",
+      "function": "thickener"
+    },
+    "sodium benzoate": {
+      "risk": "low",
+      "title": "Lower-priority preservative finding",
+      "explanation": "A preservative; interpretation depends on formulation and exposure context.",
+      "function": "preservative"
+    },
+    "potassium sorbate": {
+      "risk": "low",
+      "title": "Lower-priority preservative finding",
+      "explanation": "A preservative used in many food and personal-care formulations.",
+      "function": "preservative"
+    },
+    "phenoxyethanol": {
+      "risk": "moderate",
+      "title": "Context-dependent preservative finding",
+      "explanation": "A widely used preservative; the rule marks it for context review rather than declaring a product unsafe.",
+      "function": "preservative"
+    },
+    "parfum": {
+      "risk": "moderate",
+      "title": "Fragrance-related review",
+      "explanation": "Fragrance mixtures can matter for people with fragrance sensitivity; the exact composition may not be visible in a product ingredient list.",
+      "function": "fragrance"
+    },
+    "fragrance": {
+      "risk": "moderate",
+      "title": "Fragrance-related review",
+      "explanation": "The exact composition of a fragrance mixture may not be visible in the product ingredient declaration.",
+      "function": "fragrance"
+    },
+    "propylene glycol": {
+      "risk": "low",
+      "title": "Lower-priority ingredient finding",
+      "explanation": "Commonly used as a solvent and humectant; some individuals may experience irritation.",
+      "function": "humectant"
+    },
+    "petrolatum": {
+      "risk": "moderate",
+      "title": "Context-dependent emollient finding",
+      "explanation": "Used as an occlusive emollient. Suitability can depend on individual skin and formulation context.",
+      "function": "emollient"
+    },
+    "bht": {
+      "risk": "moderate",
+      "title": "Review finding",
+      "explanation": "An antioxidant used in some formulations; this application flags it for evidence/context review.",
+      "function": "antioxidant"
+    },
+    "butylated hydroxytoluene": {
+      "risk": "moderate",
+      "title": "Review finding",
+      "explanation": "An antioxidant used in some formulations; this application flags it for evidence/context review.",
+      "function": "antioxidant"
+    },
+    "sodium hydroxide": {
+      "risk": "low",
+      "title": "Context-dependent pH adjuster",
+      "explanation": "Often used in small amounts as a pH adjuster; interpretation depends on formulation and concentration.",
+      "function": "pH adjuster"
+    },
+    "tocopherol": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Vitamin E-related ingredient commonly used for antioxidant and conditioning roles.",
+      "function": "antioxidant"
+    },
+    "tocopheryl acetate": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "A vitamin E derivative commonly used for conditioning and antioxidant roles.",
+      "function": "antioxidant"
+    },
+    "hyaluronic acid (sodium hyaluronate)": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Humectant used to attract and retain water in topical formulations.",
+      "function": "humectant"
+    },
+    "salicylic acid": {
+      "risk": "low",
+      "title": "Context-dependent active",
+      "explanation": "An active ingredient with concentration and use-context considerations; this app does not assess personal suitability.",
+      "function": "active"
+    },
+    "retinol": {
+      "risk": "moderate",
+      "title": "Context-dependent active",
+      "explanation": "A biologically active cosmetic ingredient that may require careful use depending on context.",
+      "function": "active"
+    },
+    "paracetamol": {
+      "risk": "moderate",
+      "title": "Medicine ingredient for label review",
+      "explanation": "This is an active medicine ingredient. This application does not make treatment or dose decisions.",
+      "function": "active"
+    },
+    "acetaminophen": {
+      "risk": "moderate",
+      "title": "Medicine ingredient for label review",
+      "explanation": "This is an active medicine ingredient. This application does not make treatment or dose decisions.",
+      "function": "active"
+    },
+    "panthenol": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Pro-vitamin B5 humectant used to attract moisture and support skin conditioning.",
+      "function": "humectant",
+      "source": {
+        "name": "Cosmetic Ingredient Review (CIR) / PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/"
+      }
+    },
+    "citric acid": {
+      "risk": "low",
+      "title": "Context-dependent pH regulator",
+      "explanation": "Alpha-hydroxy acid used in low concentrations as a pH adjuster and chelating aid; high concentrations may increase skin sensitivity.",
+      "function": "pH_regulator",
+      "source": {
+        "name": "Cosmetic Ingredient Review (CIR) / FDA",
+        "url": "https://open.fda.gov/"
+      }
+    },
+    "xanthan gum": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Polysaccharide gum produced by bacterial fermentation, widely used as a rheology modifier and thickener in cosmetics and food.",
+      "function": "thickener",
+      "source": {
+        "name": "FAO/WHO JECFA / Cosmetic Ingredient Review",
+        "url": "https://world.openfoodfacts.org/"
+      }
+    },
+    "butylene glycol": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Organic alcohol solvent and humectant used to dissolve ingredients and improve formula texture.",
+      "function": "solvent",
+      "source": {
+        "name": "Cosmetic Ingredient Review (CIR) / PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/"
+      }
+    },
+    "ceramide np": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Identical to lipids naturally found in human stratum corneum, used to support skin barrier integrity and hydration.",
+      "function": "active",
+      "source": {
+        "name": "Cosmetic Ingredient Review (CIR)",
+        "url": "https://world.openbeautyfacts.org/"
+      }
+    },
+    "allantoin": {
+      "risk": "none",
+      "title": "Low concern in reference set",
+      "explanation": "Skin-soothing compound used to protect against irritation and support skin conditioning.",
+      "function": "soothing_agent",
+      "source": {
+        "name": "FDA OTC Skin Protectant Monograph / CIR",
+        "url": "https://open.fda.gov/"
+      }
+    },
+    "zinc oxide": {
+      "risk": "low",
+      "title": "Mineral active with use-context considerations",
+      "explanation": "Mineral physical sunscreen filter and skin protectant; topical non-nano forms have a strong safety profile while inhalation context (aerosols) requires precaution.",
+      "function": "sunscreen_filter",
+      "source": {
+        "name": "FDA OTC Sunscreen Monograph / SCCS",
+        "url": "https://open.fda.gov/"
+      }
+    }
+  },
+  "beauty": {},
+  "food": {
+    "sugar": {
+      "risk": "low",
+      "title": "Nutrition-related review",
+      "explanation": "Sugar is a dietary ingredient and its nutritional significance depends on total intake and serving context.",
+      "function": "sweetener"
+    },
+    "corn syrup": {
+      "risk": "low",
+      "title": "Nutrition-related review",
+      "explanation": "A sweetener; dietary interpretation depends on the whole food and serving size.",
+      "function": "sweetener"
+    },
+    "salt": {
+      "risk": "low",
+      "title": "Nutrition-related review",
+      "explanation": "Salt contributes sodium; dietary relevance depends on the amount and overall diet.",
+      "function": "seasoning"
+    },
+    "whole grain oats": {
+      "risk": "none",
+      "title": "Ingredient identified",
+      "explanation": "A cereal grain ingredient; the app displays product data rather than making an individualized nutrition judgment.",
+      "function": "grain"
+    },
+    "natural flavour": {
+      "risk": "unknown",
+      "title": "Exact composition not specified",
+      "explanation": "The label term can represent a mixture whose detailed composition is not provided here.",
+      "function": "flavoring"
+    },
+    "bht": {
+      "risk": "moderate",
+      "title": "Review finding",
+      "explanation": "An antioxidant used in some foods; the app flags it for evidence/context review.",
+      "function": "antioxidant"
+    },
+    "vitamin e": {
+      "risk": "none",
+      "title": "Ingredient identified",
+      "explanation": "Vitamin E-related nutrient/ingredient; exact form matters.",
+      "function": "nutrient"
+    },
+    "folic acid": {
+      "risk": "none",
+      "title": "Ingredient identified",
+      "explanation": "A B-vitamin form commonly added for fortification.",
+      "function": "nutrient"
+    }
+  },
+  "medicine": {
+    "paracetamol": {
+      "risk": "moderate",
+      "title": "Active medicine ingredient",
+      "explanation": "This is a drug active ingredient. This app summarizes available label/reference data and does not assess personal suitability.",
+      "function": "active"
+    },
+    "acetaminophen": {
+      "risk": "moderate",
+      "title": "Active medicine ingredient",
+      "explanation": "This is a drug active ingredient. This app summarizes available label/reference data and does not assess personal suitability.",
+      "function": "active"
+    }
+  }
+}

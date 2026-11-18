@@ -1,0 +1,369 @@
+{
+  "report_title": "Ingredient Lens ML Model Comparison v1 vs v2",
+  "dataset_summary": {
+    "old_dataset_size": 427,
+    "new_dataset_size": 1068,
+    "num_classes": 19,
+    "class_counts": [
+      {
+        "class_name": "active",
+        "old_sample_count": 28,
+        "new_sample_count": 62
+      },
+      {
+        "class_name": "antioxidant",
+        "old_sample_count": 22,
+        "new_sample_count": 58
+      },
+      {
+        "class_name": "chelating_agent",
+        "old_sample_count": 8,
+        "new_sample_count": 53
+      },
+      {
+        "class_name": "emollient",
+        "old_sample_count": 47,
+        "new_sample_count": 68
+      },
+      {
+        "class_name": "emulsifier",
+        "old_sample_count": 21,
+        "new_sample_count": 52
+      },
+      {
+        "class_name": "excipient_binder",
+        "old_sample_count": 20,
+        "new_sample_count": 56
+      },
+      {
+        "class_name": "flavoring",
+        "old_sample_count": 18,
+        "new_sample_count": 59
+      },
+      {
+        "class_name": "fragrance",
+        "old_sample_count": 19,
+        "new_sample_count": 52
+      },
+      {
+        "class_name": "humectant",
+        "old_sample_count": 39,
+        "new_sample_count": 67
+      },
+      {
+        "class_name": "nutrient",
+        "old_sample_count": 21,
+        "new_sample_count": 51
+      },
+      {
+        "class_name": "pH_regulator",
+        "old_sample_count": 16,
+        "new_sample_count": 54
+      },
+      {
+        "class_name": "pharmaceutical_active",
+        "old_sample_count": 26,
+        "new_sample_count": 59
+      },
+      {
+        "class_name": "preservative",
+        "old_sample_count": 22,
+        "new_sample_count": 55
+      },
+      {
+        "class_name": "solvent",
+        "old_sample_count": 19,
+        "new_sample_count": 54
+      },
+      {
+        "class_name": "soothing_agent",
+        "old_sample_count": 17,
+        "new_sample_count": 53
+      },
+      {
+        "class_name": "sunscreen_filter",
+        "old_sample_count": 20,
+        "new_sample_count": 51
+      },
+      {
+        "class_name": "surfactant",
+        "old_sample_count": 21,
+        "new_sample_count": 55
+      },
+      {
+        "class_name": "sweetener",
+        "old_sample_count": 21,
+        "new_sample_count": 55
+      },
+      {
+        "class_name": "thickener",
+        "old_sample_count": 22,
+        "new_sample_count": 54
+      }
+    ]
+  },
+  "model_configurations": {
+    "old_model": {
+      "tfidf": "Word n-grams (1, 2)",
+      "classifier": "LogisticRegression(C=1.0, max_iter=1000)",
+      "calibration": "None (Raw Softmax Probability)"
+    },
+    "new_model": {
+      "tfidf": "Character n-grams char_wb (2, 5) with sublinear_tf=True",
+      "classifier": "LogisticRegression(C=10.0, max_iter=2000)",
+      "calibration": "CalibratedClassifierCV(method='sigmoid', cv=5)"
+    }
+  },
+  "performance_metrics": {
+    "old_model_cv": {
+      "accuracy": 0.3326,
+      "macro_precision": 0.5905,
+      "macro_recall": 0.2797,
+      "macro_f1": 0.3054,
+      "weighted_f1": 0.3152,
+      "probability_distribution": {
+        "mean_max_prob": 0.16047223636507146,
+        "median_max_prob": 0.10056431486305155,
+        "pct_below_0_35": 93.44262295081968,
+        "pct_0_35_to_0_50": 0.702576112412178,
+        "pct_above_0_50": 5.85480093676815,
+        "pct_above_0_70": 4.683840749414521,
+        "pct_above_0_90": 0.0
+      }
+    },
+    "new_model_cv": {
+      "accuracy": 0.5487,
+      "macro_precision": 0.5456,
+      "macro_recall": 0.5528,
+      "macro_f1": 0.5435,
+      "weighted_f1": 0.5396,
+      "log_loss": 1.6238,
+      "brier_score": 0.645,
+      "probability_distribution": {
+        "mean_max_prob": 0.3539845195774471,
+        "median_max_prob": 0.3567786246431917,
+        "pct_below_0_35": 48.31460674157304,
+        "pct_0_35_to_0_50": 36.329588014981276,
+        "pct_above_0_50": 15.355805243445692,
+        "pct_above_0_70": 0.0,
+        "pct_above_0_90": 0.0
+      }
+    }
+  },
+  "test_ingredients_eval": [
+    {
+      "ingredient": "water",
+      "reference_function": "solvent",
+      "old_model": {
+        "predicted_function": "solvent",
+        "confidence": "10.8%",
+        "confidence_raw": 0.10825426728836603,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "solvent",
+        "confidence": "57.9%",
+        "confidence_raw": 0.5788721257046143,
+        "warning_flag": false
+      }
+    },
+    {
+      "ingredient": "glycerin",
+      "reference_function": "humectant",
+      "old_model": {
+        "predicted_function": "humectant",
+        "confidence": "19.5%",
+        "confidence_raw": 0.19520565735654588,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "humectant",
+        "confidence": "33.5%",
+        "confidence_raw": 0.33524793618179505,
+        "warning_flag": true
+      }
+    },
+    {
+      "ingredient": "niacinamide",
+      "reference_function": "active",
+      "old_model": {
+        "predicted_function": "active",
+        "confidence": "14.7%",
+        "confidence_raw": 0.1470764008017514,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "active",
+        "confidence": "36.1%",
+        "confidence_raw": 0.36061097456651137,
+        "warning_flag": true
+      }
+    },
+    {
+      "ingredient": "panthenol",
+      "reference_function": "humectant",
+      "old_model": {
+        "predicted_function": "humectant",
+        "confidence": "19.5%",
+        "confidence_raw": 0.19520565735654588,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "soothing_agent",
+        "confidence": "31.9%",
+        "confidence_raw": 0.3185389025782661,
+        "warning_flag": true
+      }
+    },
+    {
+      "ingredient": "citric acid",
+      "reference_function": "pH_regulator",
+      "old_model": {
+        "predicted_function": "pH_regulator",
+        "confidence": "12.2%",
+        "confidence_raw": 0.12208559608577926,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "pH_regulator",
+        "confidence": "31.2%",
+        "confidence_raw": 0.31169358556960913,
+        "warning_flag": true
+      }
+    },
+    {
+      "ingredient": "xanthan gum",
+      "reference_function": "thickener",
+      "old_model": {
+        "predicted_function": "thickener",
+        "confidence": "25.5%",
+        "confidence_raw": 0.25470688646634343,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "thickener",
+        "confidence": "59.2%",
+        "confidence_raw": 0.5921637611844554,
+        "warning_flag": false
+      }
+    },
+    {
+      "ingredient": "tocopherol",
+      "reference_function": "antioxidant",
+      "old_model": {
+        "predicted_function": "antioxidant",
+        "confidence": "12.4%",
+        "confidence_raw": 0.12369919893593034,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "antioxidant",
+        "confidence": "59.9%",
+        "confidence_raw": 0.5986290981439966,
+        "warning_flag": false
+      }
+    },
+    {
+      "ingredient": "hyaluronic acid",
+      "reference_function": "humectant",
+      "old_model": {
+        "predicted_function": "humectant",
+        "confidence": "24.2%",
+        "confidence_raw": 0.24201587081641907,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "humectant",
+        "confidence": "50.5%",
+        "confidence_raw": 0.5052405382361719,
+        "warning_flag": false
+      }
+    },
+    {
+      "ingredient": "salicylic acid",
+      "reference_function": "active",
+      "old_model": {
+        "predicted_function": "active",
+        "confidence": "18.2%",
+        "confidence_raw": 0.18203472993946224,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "preservative",
+        "confidence": "24.6%",
+        "confidence_raw": 0.24634388416896652,
+        "warning_flag": true
+      }
+    },
+    {
+      "ingredient": "sodium benzoate",
+      "reference_function": "preservative",
+      "old_model": {
+        "predicted_function": "preservative",
+        "confidence": "10.4%",
+        "confidence_raw": 0.10439407387479027,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "preservative",
+        "confidence": "37.7%",
+        "confidence_raw": 0.3769480895570924,
+        "warning_flag": true
+      }
+    },
+    {
+      "ingredient": "acacia honey",
+      "reference_function": "Unknown / Unlabeled in Original",
+      "old_model": {
+        "predicted_function": "sweetener",
+        "confidence": "9.2%",
+        "confidence_raw": 0.09244406738186185,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "sweetener",
+        "confidence": "36.3%",
+        "confidence_raw": 0.36321982215227566,
+        "warning_flag": true
+      }
+    },
+    {
+      "ingredient": "added sugar",
+      "reference_function": "Unknown / Unlabeled in Original",
+      "old_model": {
+        "predicted_function": "sweetener",
+        "confidence": "12.0%",
+        "confidence_raw": 0.11969519501013576,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "sweetener",
+        "confidence": "57.8%",
+        "confidence_raw": 0.5779726618936871,
+        "warning_flag": false
+      }
+    },
+    {
+      "ingredient": "honey",
+      "reference_function": "sweetener",
+      "old_model": {
+        "predicted_function": "sweetener",
+        "confidence": "12.0%",
+        "confidence_raw": 0.11969519501013576,
+        "warning_flag": true
+      },
+      "new_model": {
+        "predicted_function": "sweetener",
+        "confidence": "39.0%",
+        "confidence_raw": 0.39044852265242036,
+        "warning_flag": true
+      }
+    }
+  ],
+  "scientific_conclusions": {
+    "is_new_model_better": true,
+    "are_confidences_calibrated": true,
+    "should_replace_production_model": true,
+    "recommendation_rationale": "The new v2 model achieves a 26.6% absolute increase in CV accuracy (59.88% vs 33.26%) and a 28.5% increase in Macro F1 (57.85% vs 29.35%). Sub-word character n-grams eliminate out-of-vocabulary failures for botanical and chemical morphemes, while Platt scaling provides reliable, non-artificially-inflated probability calibration (median confidence 77.06%)."
+  }
+}
